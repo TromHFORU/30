@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    text-align: center;
+}
+.container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(140, 0, 255);
+    height:45vh;
+    border-radius:0px 0px 20px 20px;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user input{
+    width: 50px;
+    margin: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 32px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid white;
+    outline: none;
+    background-color:rgb(89, 31, 136);
+    color: white;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    font-weight: bold;
+
+}
+button:hover{
+    cursor: pointer;
+}
+.cal {
+    /* Changed from min-height to fix the size */
+    height: 80px; 
+    
+    /* Smooth card styles */
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    margin: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+    
+    /* Soft shadow for depth */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    
+    /* Prevents content spill */
+    overflow: hidden; 
+}
+
+.cal h2 {
+    margin: 0 0 8px 0;
+    font-size: 1.1rem;
+    color: #333333;
+}
+
+.cal p {
+    margin: 20px 0 0 0;
+    font-size: 1rem;
+    color: #666666;
+}
