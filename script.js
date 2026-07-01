@@ -41,6 +41,7 @@ function selectItem(item){
 }
 console.log(selectItem('apple'))
 
+// object destructuring
 const favouriteDoungha = {
     title : "Renegade Immortal",
     year : 2023,
